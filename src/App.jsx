@@ -1,11 +1,14 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+
 function App() {
-	return (
-		<div className='flex justify-center items-center min-h-screen bg-blue-900'>
-			<h1 className='text-3xl font-bold underline text-white'>
-				Landing Page BuilderMania
-			</h1>
-		</div>
-	)
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
+  )
 }
 
 export default App

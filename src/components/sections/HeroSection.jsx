@@ -11,7 +11,7 @@ export default function HeroSection() {
                 <div className="flex flex-col w-[90vw] mx-auto py-30 px-4 lg:mb-15 gap-6 items-center justify-center lg:items-start lg:justify-start">
 
                     {/* Badge d'annoce */}
-                    <div className="flex items-center gap-2 border border-blue-600/20 bg-blue-50 rounded-lg px-1.5 py-1">
+                    <div className="flex items-center gap-2 backdrop-blur-md shadow border border-blue-600/20 bg-blue-50 rounded-lg px-1.5 py-1">
                         <span className="text-sm text-blue-600 font-semibold bg-blue-100 px-3 py-1 rounded-lg">
                             New
                         </span>

@@ -1,7 +1,7 @@
 // import {  } from 'lucide-react';
 import PropTypes from 'prop-types';
 
-const Footer = ({ copyright, contact, contactDescript, Privacy, Legal, Terms, right }) => {
+const Footer = ({ copyright, contact, contactDescript, Privacy, Terms, right }) => {
     return (
         <footer className="bg-zinc-950/5">
             {/* Copyright */}
@@ -18,10 +18,6 @@ const Footer = ({ copyright, contact, contactDescript, Privacy, Legal, Terms, ri
                     <span>|</span>
                     <span className='text-xs'>
                         <a href="#" className='underline'>{Privacy}</a>
-                    </span>
-                    <span>|</span>
-                    <span className='text-xs'>
-                        <a href="#" className='underline'>{Legal}</a>
                     </span>
                     <span>|</span>
                     <span className='text-xs'>
@@ -44,7 +40,6 @@ Footer.propTypes = {
     contact: PropTypes.string.isRequired,
     contactDescript: PropTypes.string.isRequired,
     Privacy: PropTypes.func.isRequired,
-    Legal: PropTypes.func.isRequired,
     Terms: PropTypes.func.isRequired,
     right: PropTypes.func.isRequired,
 };
@@ -62,8 +57,7 @@ export default function App() {
             right="All rights reserved."
             contact=" here"
             contactDescript="Contact support  "
-            Privacy="Privacy"
-            Legal="Impressum"
+            Privacy="Privacy Police"
             Terms="Terms"
         />
     );

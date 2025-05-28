@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Computer } from 'lucide-react';
-import GitHubStarButton from '../ui/GitHubStarButton'; // Assurez-vous que le chemin est correct
+import GitHubStarButton from '../ui/GitHubStarButton';
 
 export default function LandingPage() {
     const navigate = useNavigate();
@@ -9,11 +9,11 @@ export default function LandingPage() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setScrolled(window.scrollY > 10); // active le blur si scroll > 10px
+            setScrolled(window.scrollY > 10);
         };
 
         window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll); // clean
+        return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
     return (
@@ -35,13 +35,6 @@ export default function LandingPage() {
                 </div>
 
                 <div className="flex items-center gap-4">
-                    {/* <button
-                        onClick={() => navigate('/')}
-                        className="cursor-pointer hover:border-blue-600 text-black border border-zinc-950/5 hover:bg-zinc-50 transition duration-300 rounded-lg px-3 py-2 capitalize flex justify-center items-center gap-2">
-                        <Github size={20} /><Star size={12} />
-                        <span className='text-sm font-light'>Github</span>
-                        <span className='text-sm font-light'>10, 120</span>
-                    </button> */}
                     <GitHubStarButton user="2MJ-DEV" repo="LandP-BuilderMania" />
 
                     <button

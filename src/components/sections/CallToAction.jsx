@@ -27,7 +27,7 @@ const CallToAction = ({ label, highlight, description }) => {
                                     onClick={() => navigate('/')}
                                     className="cursor-pointer py-2 px-6 hover:bg-blue-500 duration-300 active:scale-90 active:bg-blue-800 rounded-lg font-light border border-zinc-950/5 bg-blue-600 text-sm text-white"
                                 >
-                                    <span className='text-sm font-light'>Get started now</span>
+                                    <span className='text-sm font-light capitalize'>get started now</span>
                                 </button>
                             </div>
                         </div>

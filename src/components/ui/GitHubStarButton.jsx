@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Github, Star } from 'lucide-react'; // ou ton icône source
+import { Github, Star } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
 

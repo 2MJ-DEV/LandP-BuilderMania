@@ -28,7 +28,7 @@ function PricingCard({ title, price, features, descript, duration, submitBtn, is
                 </div>
             </div>
             <hr className={`mb-3 ${isFeatured ? 'border-zinc-950/10' : 'border-zinc-950/5'}`} />
-            <button className={`${isFeatured? 'bg-black text-white text-sm hover:bg-zinc-800 cursor-pointer transition duration-300' : ''} py-2 px-4 cursor-pointer text-sm hover:bg-zinc-50 transition duration-300 rounded-lg flex items-center justify-center gap-3`}>
+            <button className={`${isFeatured? 'bg-black text-white text-sm hover:bg-zinc-700 cursor-pointer transition duration-300' : ''} py-2 px-4 cursor-pointer text-sm hover:bg-zinc-100 transition duration-300 rounded-lg flex items-center justify-center gap-3`}>
                 {submitBtn} <Minus className='' />
             </button>
         </div>

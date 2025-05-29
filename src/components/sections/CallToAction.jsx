@@ -8,17 +8,17 @@ const CallToAction = ({ label, highlight, description }) => {
             <div className="">
                 <div className="flex flex-col items-center justify-center w-[80vw] mx-auto mb-25 mt-16 p-8 bg-white rounded-lg border-1 border-zinc-950/5 shadow">
                     <div className="relative w-20 h-20">
-                        <div className="w-20 h-20 bg-zinc-950/5 rounded-full flex items-center justify-center">
+                        <div className="lg:w-20 lg:h-20 w-15 h-15 bg-zinc-200 rounded-full flex items-center justify-center">
 
                         </div>
                     </div>
                     <div className="flex flex-col mb-6 mt-6">
                         <div className="">
-                            <h2 className="text-3xl text-center font-normal text-gray-900">
+                            <h2 className="lg:text-3xl text-xl text-center font-normal text-gray-900">
                                 {label}
                                 <span className="text-blue-600">{highlight}</span>
                             </h2>
-                            <p className='w-[50vw] mx-auto text-center text-gray-600 mt-4'>{description}</p>
+                            <p className='lg:w-[50vw] w-[70vw] mx-auto text-center text-gray-600 mt-4'>{description}</p>
                         </div>
                         <div className="flex justify-center items-center mt-6">
                             <div className="">

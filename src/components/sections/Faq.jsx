@@ -35,7 +35,7 @@ FAQItem.propTypes = {
 const FAQ = ({ title, items }) => {
     return (
         <section className="">
-            <div className="w-[60vw] mx-auto py-12 px-4 sm:px-6">
+            <div className="lg:w-[60vw] w-[90vw] mx-auto py-12 px-4 sm:px-6">
                 <h2 className="text-3xl font-ligth text-center mb-8">{title}</h2>
                 <div className="space-y-2">
                     {items.map((item, index) => (

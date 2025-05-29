@@ -12,19 +12,21 @@ export default function HeroSection() {
 
                     {/* Badge d'annoce */}
                     <div className="flex items-center gap-2 backdrop-blur-md shadow border border-blue-600/20 bg-blue-50 rounded-lg px-1.5 py-1">
-                        <span className="text-sm text-blue-600 font-semibold bg-blue-100 px-3 py-1 rounded-lg">
+                        <span className="sm:text-xs text-sm text-blue-600 font-semibold bg-blue-100 lg:px-3 lg:py-1 px-2 rounded-lg">
                             New
                         </span>
-                        <span className="text-sm text-zinc-600 font-light">
+                        <span className="sm:text-xs text-sm text-zinc-600 font-light">
                             BuilderMania is now available!
                         </span>
-                        <Rocket />
+                        <Rocket className='lg:size-5' />
                     </div>
 
                     {/* Titre */}
-                    <h1 className="text-5xl sm:text-4xl lg:w-[60vw] text-[45px] md:text-5xl font-normal lg:text-[52px] text-prettylg:text-4xl text-pretty text-zinc-900 leading-tight">
-                        Welcome to your platform that connects <span className="text-blue-600">Freelancers, Startups,</span> and Individuals.
-                    </h1>
+                    <div className="lg:text-start text-center">
+                        <h1 className="text-4xl lg:w-[60vw] text-[45px] md:text-5xl font-normal lg:text-[52px] lg:text-4xl text-pretty text-zinc-900 leading-tight">
+                            Welcome to your platform that connects <span className="text-blue-600">Freelancers, Startups,</span> and Individuals.
+                        </h1>
+                    </div>
 
                     {/* Sous-titre */}
                     <p className="text-zinc-600 text-base sm:text-lg max-w-xl">
@@ -33,7 +35,7 @@ export default function HeroSection() {
                     </p>
 
                     {/* Bouton CTA */}
-                    <div className="flex items-center gap-5">
+                    <div className="flex flex-col w-[90vw] lg:w-full lg:flex-row items-center gap-5 mt-3">
                         <button className="cursor-pointer p-3 lg:p-2 capitalize text-sm bg-gradient-to-b from-blue-500 via-blue-600 to-blue-500 font-light hover:bg-blue-500 ring-1 ring-white/10 text-white rounded-lg hover:shadow-blue-600/70 w-full lg:w-max lg:px-10 border border-zinc-950/5 flex justify-center duration-500 active:scale-90 shadow-xl lg:shadow-2xl shadow-blue-600/10 lg:shadow-blue-600/30">
                             <span className='text-sm'>get started for free</span>
                         </button>

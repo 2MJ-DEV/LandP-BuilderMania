@@ -5,21 +5,21 @@ const Footer = ({ copyright, contact, contactDescript, Privacy, Terms, right }) 
     return (
         <footer className="bg-zinc-950/5">
             {/* Copyright */}
-            <div className="flex justify-between items-center w-[80vw] mx-auto py-5">
+            <div className="lg:flex justify-between items-center w-[80vw] mx-auto py-5">
                 <div className="text-xs flex justify-center items-center gap-2">
                     <span className="">{copyright}</span>
-                    <span>|</span>
+                    <span className=''>|</span>
                     <span className="">{right}</span>
                 </div>
-                <div className="flex justify-between items-center gap-2">
+                <div className="lg:flex justify-between items-center text-center gap-2">
                     <span className='text-xs'>{contactDescript}
                         <a href="mailto:julesmukadi.dev@gmail.com" className='underline'>{contact}</a>
                     </span>
-                    <span>|</span>
+                    <span className=''> | </span>
                     <span className='text-xs'>
                         <a href="#" className='underline'>{Privacy}</a>
                     </span>
-                    <span>|</span>
+                    <span className=''> | </span>
                     <span className='text-xs'>
                         <a href="#" className='underline'>{Terms}</a>
                     </span>

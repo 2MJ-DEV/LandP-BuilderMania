@@ -30,7 +30,7 @@ export default function Pricing() {
 
     return (
         <section className=''>
-            <div className="grid md:grid-cols-3 gap-3 w-[70vw] mx-auto py-16 items-stretch">
+            <div className="grid md:grid-cols-3 gap-3 w-[90vw] lg:w-[70vw] mx-auto py-16 items-stretch">
                 {plans.map((plan, index) => (
                     <PricingCard
                         key={index} {...plan}

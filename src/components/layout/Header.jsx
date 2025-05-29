@@ -26,22 +26,24 @@ export default function LandingPage() {
         >
             <div className="flex justify-between items-center lg:w-[90vw] mx-auto py-2 px-5">
                 <div className="flex items-center gap-16">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center justify-center gap-2 hover:text-blue-600 transition duration-300">
                         <Computer className="" />
-                        <span className="">
-                            <a href="/" className='text-lg'>BuilderMania</a>
+                        <span className="hidden lg:block">
+                            <a href="/" className='lg:text-lg text-black'>BuilderMania</a>
                         </span>
                     </div>
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <GitHubStarButton user="2MJ-DEV" repo="LandP-BuilderMania" />
+                    <div className="hidden lg:block">
+                        <GitHubStarButton user="2MJ-DEV" repo="LandP-BuilderMania" className='' />
+                    </div>
 
                     <button
                         onClick={() => navigate('/')}
-                        className="cursor-pointer py-2 px-6 hover:bg-blue-500 duration-300 active:scale-90 active:bg-blue-800 rounded-lg font-light border border-zinc-950/5 bg-blue-600 text-sm text-white"
+                        className="cursor-pointer py-2 px-6 hover:bg-blue-500 duration-300 active:scale-90 active:bg-blue-800 rounded-lg font-light border border-zinc-950/5 bg-blue-600 lg:text-sm text-xs text-white"
                     >
-                        <span className='text-sm font-light'>Get started</span>
+                        <span className='lg:text-sm font-light'>Get started</span>
                     </button>
                 </div>
             </div>

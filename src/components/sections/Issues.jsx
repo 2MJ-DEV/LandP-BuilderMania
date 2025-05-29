@@ -29,11 +29,11 @@ export default function Issues() {
 
     return (
         <section className="bgCall mt-0">
-            <div className="grid grid-cols-4 gap-4 justify-between w-[90vw] mx-auto items-center">
+            <div className="grid lg:grid-cols-4 mt-15 mb-15 gap-4 justify-between w-[90vw] mx-auto items-center">
                 {icons.map((icon, index) => {
                     const IconComponent = icon.component;
                     return (
-                        <div key={index} className="mt-15 mb-15 h-53 w-full shadow border border-zinc-950/5 bg-zinc-50 rounded-2xl p-1">
+                        <div key={index} className=" h-53 w-full shadow border border-zinc-950/5 bg-zinc-50 rounded-2xl p-1">
                             <div className="h-41 w-full bg-blue-200 rounded-2xl p-4 shadow-lg">
                                 <div className="flex justify-start">
                                     <IconComponent className="size-6" aria-label={icon.label} />

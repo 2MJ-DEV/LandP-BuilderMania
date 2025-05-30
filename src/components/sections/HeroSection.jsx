@@ -36,12 +36,16 @@ export default function HeroSection() {
 
                     {/* Bouton CTA */}
                     <div className="flex flex-col w-[90vw] lg:w-full lg:flex-row items-center gap-5 mt-3">
+                        {/* CTA pour s'incrire a la plateforme */}
                         <button className="cursor-pointer p-3 lg:p-2 capitalize text-sm bg-gradient-to-b from-blue-500 via-blue-600 to-blue-500 font-light hover:bg-blue-500 ring-1 ring-white/10 text-white rounded-lg hover:shadow-blue-600/70 w-full lg:w-max lg:px-10 border border-zinc-950/5 flex justify-center duration-500 active:scale-90 shadow-xl lg:shadow-2xl shadow-blue-600/10 lg:shadow-blue-600/30">
                             <span className='text-sm'>get started for free</span>
                         </button>
+
+                        {/* Btn CTA pour trouver ou bien explorer des projets */}
                         <button className="cursor-pointer capitalize p-3 lg:p-2 border border-zinc-950/5 flex items-center justify-center lg:px-10 hover:bg-zinc-950/5 rounded-lg active:scale-90 text-sm duration-300 w-full lg:w-max font-light">
                             <span className='text-sm'>Explore projects</span>
                         </button>
+
                     </div>
                 </div>
             </div>

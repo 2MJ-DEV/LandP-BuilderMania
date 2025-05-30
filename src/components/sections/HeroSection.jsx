@@ -2,7 +2,7 @@ import { Rocket } from 'lucide-react';
 
 export default function HeroSection() {
     return (
-        <section className="relative lg:mt-27 overflow-hidden">
+        <section className="relative lg:mt-12 overflow-hidden">
             {/* Décoration flottante */}
             <div className="absolute top-10 left-0 w-40 h-40 bg-yellow-300/20 rounded-full blur-2xl animate-pulse -z-10" />
             <div className="absolute bottom-0 right-0 w-80 h-80 bg-blue-500/10 rounded-full blur-2xl -z-10" />
@@ -16,7 +16,8 @@ export default function HeroSection() {
                             New
                         </span>
                         <span className="sm:text-xs text-sm text-zinc-600 font-light">
-                            BuilderMania is now available!
+                            {/* BuilderMania is now available! */}
+                            Buildermania is coming soon!
                         </span>
                         <Rocket className='lg:size-5' />
                     </div>
@@ -24,14 +25,13 @@ export default function HeroSection() {
                     {/* Titre */}
                     <div className="lg:text-start text-center">
                         <h1 className="text-4xl lg:w-[60vw] text-[45px] md:text-5xl font-normal lg:text-[52px] lg:text-4xl text-pretty text-zinc-900 leading-tight">
-                            Welcome to your platform that connects <span className="text-blue-600">Freelancers, Startups,</span> and Individuals.
+                            Join the community of <span className="text-blue-600">freelancers</span>, <span className="text-blue-600">developers</span>, <span className="text-blue-600">creators</span> to give life to your ideas.
                         </h1>
                     </div>
 
                     {/* Sous-titre */}
                     <p className="text-zinc-600 text-base sm:text-lg max-w-xl">
-                        The preferred tool of <span className="font-semibold text-black">5,000+</span> users
-                        for easily carrying out innovative projects.
+                        Buildermania is the ideal platform to connect talents and project leaders around creative, technical or entrepreneurial initiatives.
                     </p>
 
                     {/* Bouton CTA */}
@@ -40,7 +40,7 @@ export default function HeroSection() {
                             <span className='text-sm'>get started for free</span>
                         </button>
                         <button className="cursor-pointer capitalize p-3 lg:p-2 border border-zinc-950/5 flex items-center justify-center lg:px-10 hover:bg-zinc-950/5 rounded-lg active:scale-90 text-sm duration-300 w-full lg:w-max font-light">
-                            <span className='text-sm'>get started</span>
+                            <span className='text-sm'>Explore projects</span>
                         </button>
                     </div>
                 </div>

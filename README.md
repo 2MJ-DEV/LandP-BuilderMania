@@ -1,5 +1,4 @@
  <img src="/public/assets/images/Bannière Landing_Page.png" alt="Statut">
- ![Landing Page - BuildreMania](/public/assets/images/Bannière Landing_Page.png)
 
 # 🚀 BuildreMania
 **BuildreMania** est une application web conçue pour **connecter freelances, startups et porteurs de projets** autour de projets **créatifs, techniques ou entrepreneuriaux**. Grâce à une interface moderne, intuitive et collaborative, la plateforme facilite la mise en relation entre talents et porteurs d'idées pour **accélérer la concrétisation des projets**.

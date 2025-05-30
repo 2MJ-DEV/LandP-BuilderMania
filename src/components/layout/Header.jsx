@@ -36,7 +36,8 @@ export default function LandingPage() {
 
                 <div className="flex items-center gap-4">
                     <div className="hidden lg:block">
-                        <GitHubStarButton user="2MJ-DEV" repo="LandP-BuilderMania" className='' />
+                        <a href="https://github.com/2MJ-DEV/LandP-BuilderMania" target="_blank" rel="noopener noreferrer">
+                        <GitHubStarButton user="2MJ-DEV" repo="LandP-BuilderMania" className='' /></a>
                     </div>
 
                     <button

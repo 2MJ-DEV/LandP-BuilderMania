@@ -15,6 +15,7 @@
   <!-- 📊 GitHub Stats -->
   <img src="https://img.shields.io/github/issues/2MJ-DEV/LandP-BuilderMania" alt="Issues">
   <img src="https://img.shields.io/github/last-commit/2MJ-DEV/LandP-BuilderMania" alt="Dernier commit">
+  <img src="https://img.shields.io/github/forks/2MJ-DEV/LandP-BuilderMania?style=social" alt="Forks">
 
 </div>
 
